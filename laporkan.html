@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barang Hilang - FindT</title>
+    </head>
+    <body>
+        <h1>Findt - Laporan Barang </h1>
+
+        <nav>
+        <a href="index.html">Beranda</a>
+        <a href="hilang.html">Barang Hilang</a>
+        <a href="ditemukan.html">Barang Ditemukan</a>
+        <a href="laporkan.html">Laporkan Barang</a>
+        <a href="paduan.html">Panduan</a>
+        <a href="kontak.html">Kontak</a>
+        </nav>
+    <hr>
+        <section id="lapor">
+            <h2>Laporkan barang</h2>
+            <p>Isi formulir berikuat untuk memberikan informasi barang</p>
+
+            <form>
+                <label for="nama">Nama pelapor:</label><br>
+                <input type="text" id="nama" name="nama" required>
+                <br></br>
+
+                <label for="jenis">Jenis Laporan:</label><br>
+                <select type="jenis" name="jenis" required>
+                    <option value="">Pilih jenis Barang</option>
+                    <option value="hilang">Barang hilang</option>
+                    <option value="ditemukan">Barang ditemukan</option>
+                </select>
+                <br></br>
+
+                <label for="barang">Nama barang:</label><br>
+                <input type="text" id="barang" name="barang" required>
+                <br></br>
+
+                <label for="lokasi">Lokasi:</label><br>
+                <input for="text" id="lokasi" name="lokasi" required>
+                <br></br>
+
+                <label for="tanggal">Tanggal:</label><br>
+                <input type="date" id="tanggal" name="tanggal" required>
+                <br></br>
+
+                <label for="deskripsi">Deskripsi Barang</label><br>
+                <textarea id="deskripsi" name="deskripsi"
+                    rows="4" cols="40" required></textarea>
+                <br></br>
+                
+                <button type="submit">Kirim Laporan</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        
+    <hr>
+    </body>
+</html>
