@@ -1,2 +1,2 @@
-# Davies R
-Tugas P-3 (FindT)
+# Davies Ridho AS
+Tugas Tugas (FindT)
